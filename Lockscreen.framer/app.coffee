@@ -3,14 +3,14 @@ sketch = Framer.Importer.load("imported/IOS%20Lockscreen@1x", scale: 1)
 Utils.globalLayers(sketch)
 
 
-sketch.Lock_Screen_Keyboard.x=0
-sketch.Lock_Screen_Keyboard.opacity=0
-sketch.Homescreen.x=0
-sketch.Homescreen.opacity=0
+sketch.LSKEY.x=0
+sketch.LSKEY.opacity=0
+sketch.HS.x=0
+sketch.HS.opacity=0
 
 
 
-sketch.Lock_screen.states= 
+sketch.LS.states= 
 	stateA:
 		opacity: 1
 		animationOptions:
@@ -21,7 +21,7 @@ sketch.Lock_screen.states=
 	stateC:
 		opacity: 0
 
-sketch.Lock_Screen_Keyboard.states= 
+sketch.LSKEY.states= 
 	stateA:
 		opacity: 0
 	stateB:
@@ -30,7 +30,7 @@ sketch.Lock_Screen_Keyboard.states=
 		opacity: 0
 
 
-sketch.Homescreen.states= 
+sketch.LS.states= 
 	stateA:
 		opacity: 0
 	stateB:
@@ -38,7 +38,15 @@ sketch.Homescreen.states=
 	stateC:
 		opacity: 1
 
-sketch.Homescreen.onClick ->
-	Lock_screen.stateCycle "stateA", "stateB", "stateC"	
-	Lock_Screen_Keyboard.stateCycle "stateA", "stateB", "stateC"	
-	Homescreen.stateCycle "stateA", "stateB", "stateC"	
+sketch.HS.onClick ->
+	LS.stateCycle "stateB", "stateC"	
+	LSKEY.stateCycle "stateB", "stateC"	
+	HS.stateCycle "stateB", "stateC"	
+	
+
+sketch.N91.onClick ->
+	sketch.N91.animate
+		rotation: layer.rotation + 90
+		options:
+			curve: Spring(damping: 0.5)
+
