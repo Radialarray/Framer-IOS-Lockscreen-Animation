@@ -43,58 +43,70 @@ LS.onClick ->
 # numAct[0].onTap ->
 # 	numActAnim[0].start()
 # 	numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
+passCode = []
 
-	numAct[1].onTap ->
+numAct[1].onTap ->
+	passCode.push(1)
+	numAct[1].animate
+		opacity: 0.5
+		options:
+			time:0.3
+	numAct[1].onAnimationEnd ->
 		numAct[1].animate
-			opacity: 0.5
+			opacity:0
 			options:
 				time:0.3
-		numAct[1].onAnimationEnd ->
-			numAct[1].animate
-				opacity:0
-				options:
-					time:0.3
 
-	numAct[2].onTap ->
+numAct[2].onTap ->
+	passCode.push(2)
+	numAct[2].animate
+		opacity: 0.5
+		options:
+			time:0.3
+	numAct[2].onAnimationEnd ->
 		numAct[2].animate
-			opacity: 0.5
+			opacity:0
 			options:
 				time:0.3
-		numAct[2].onAnimationEnd ->
-			numAct[2].animate
-				opacity:0
-				options:
-					time:0.3
 
-	numAct[3].onTap ->
+numAct[3].onTap ->	
+	passCode.push(3)
+	numAct[3].animate
+		opacity: 0.5
+		options:
+			time:0.3
+	numAct[3].onAnimationEnd ->
 		numAct[3].animate
-			opacity: 0.5
+			opacity:0
 			options:
 				time:0.3
-		numAct[3].onAnimationEnd ->
-			numAct[3].animate
-				opacity:0
-				options:
-					time:0.3
 
-	numAct[4].onTap ->
+numAct[4].onTap ->
+	passCode.push(4)
+	numAct[4].animate
+		opacity: 0.5
+		options:
+			time:0.3
+	numAct[4].onAnimationEnd ->
 		numAct[4].animate
-			opacity: 0.5
+			opacity:0
 			options:
 				time:0.3
-		numAct[4].onAnimationEnd ->
-			numAct[4].animate
-				opacity:0
-				options:
-					time:0.3
+
 
 for num in numAct
 	v = 0
 	num.onTap ->
 		passAct[v].opacity = 1
 		v++
-		if v>5
+		if passCode.length ==4 && passCode[0]==1 && passCode[1]==2 && passCode[2]==3 && passCode[3] == 4
 			LSKEY.animate
 				opacity: 0
 			LSKEY.on Events.AnimationEnd, (animation, layer) ->
 				LSKEY.visible = false
+		else 
+			if (passCode.length >3)
+				for pass in passAct
+					pass.opacity=0
+				passCode = []
+				v = 0
