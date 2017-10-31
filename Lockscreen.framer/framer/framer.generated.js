@@ -1004,14 +1004,14 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 				"originalName": "Password Dots Act",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 88,
-					"y": 128,
-					"width": 200,
-					"height": 16
+					"x": 89,
+					"y": 130,
+					"width": 198,
+					"height": 13
 				},
 				"visible": true,
 				"metadata": {
-					"opacity": 0.6292560634328358
+					"opacity": 1
 				},
 				"children": [
 					{
@@ -1021,10 +1021,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot6",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 273,
-							"y": 129,
-							"width": 15,
-							"height": 15
+							"x": 274,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1033,10 +1033,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot6-n0fdrtc5.png",
 							"frame": {
-								"x": 273,
-								"y": 129,
-								"width": 15,
-								"height": 15
+								"x": 274,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1048,10 +1048,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot5",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 236,
-							"y": 129,
-							"width": 15,
-							"height": 15
+							"x": 237,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1060,10 +1060,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot5-mjdgnthc.png",
 							"frame": {
-								"x": 236,
-								"y": 129,
-								"width": 15,
-								"height": 15
+								"x": 237,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1075,10 +1075,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot4",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 199,
-							"y": 129,
-							"width": 15,
-							"height": 15
+							"x": 200,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1087,10 +1087,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot4-ode0nki3.png",
 							"frame": {
-								"x": 199,
-								"y": 129,
-								"width": 15,
-								"height": 15
+								"x": 200,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1102,10 +1102,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 162,
-							"y": 129,
-							"width": 15,
-							"height": 15
+							"x": 163,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1114,10 +1114,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot3-qzeynevg.png",
 							"frame": {
-								"x": 162,
-								"y": 129,
-								"width": 15,
-								"height": 15
+								"x": 163,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1129,10 +1129,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 125,
-							"y": 128,
-							"width": 15,
-							"height": 15
+							"x": 126,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1141,10 +1141,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot2-ntk1nzne.png",
 							"frame": {
-								"x": 125,
-								"y": 128,
-								"width": 15,
-								"height": 15
+								"x": 126,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1156,10 +1156,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "Dot1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 88,
-							"y": 129,
-							"width": 15,
-							"height": 15
+							"x": 89,
+							"y": 130,
+							"width": 13,
+							"height": 13
 						},
 						"visible": true,
 						"metadata": {
@@ -1168,10 +1168,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Dot1-ntzfn0y1.png",
 							"frame": {
-								"x": 88,
-								"y": 129,
-								"width": 15,
-								"height": 15
+								"x": 89,
+								"y": 130,
+								"width": 13,
+								"height": 13
 							}
 						},
 						"children": []
@@ -1186,11 +1186,11 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 88,
-					"y": 128,
+					"y": 129,
 					"width": 200,
-					"height": 16
+					"height": 15
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -1311,7 +1311,7 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 125,
-							"y": 128,
+							"y": 129,
 							"width": 15,
 							"height": 15
 						},
@@ -1323,7 +1323,7 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 							"path": "images/Layer-Dot2-rtdenuzg.png",
 							"frame": {
 								"x": 125,
-								"y": 128,
+								"y": 129,
 								"width": 15,
 								"height": 15
 							}
@@ -1371,7 +1371,7 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 					"width": 279,
 					"height": 354
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -1655,10 +1655,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 				"originalName": "NDeact",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 47,
-					"y": 192,
-					"width": 281,
-					"height": 356
+					"x": 46,
+					"y": 191,
+					"width": 283,
+					"height": 358
 				},
 				"visible": true,
 				"metadata": {
@@ -1672,10 +1672,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N9",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 250,
-							"y": 377,
-							"width": 78,
-							"height": 78
+							"x": 249,
+							"y": 376,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1684,10 +1684,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N9-mejgoui1.png",
 							"frame": {
-								"x": 250,
-								"y": 377,
-								"width": 78,
-								"height": 78
+								"x": 249,
+								"y": 376,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1699,10 +1699,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N8",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 149,
-							"y": 377,
-							"width": 78,
-							"height": 78
+							"x": 148,
+							"y": 376,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1711,10 +1711,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N8-nzm3qkiz.png",
 							"frame": {
-								"x": 149,
-								"y": 377,
-								"width": 78,
-								"height": 78
+								"x": 148,
+								"y": 376,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1726,10 +1726,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N7",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 47,
-							"y": 377,
-							"width": 78,
-							"height": 78
+							"x": 46,
+							"y": 376,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1738,10 +1738,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N7-neu2n0uw.png",
 							"frame": {
-								"x": 47,
-								"y": 377,
-								"width": 78,
-								"height": 78
+								"x": 46,
+								"y": 376,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1753,10 +1753,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N6",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 250,
-							"y": 285,
-							"width": 78,
-							"height": 78
+							"x": 249,
+							"y": 284,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1765,10 +1765,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N6-qtc1neu5.png",
 							"frame": {
-								"x": 250,
-								"y": 285,
-								"width": 78,
-								"height": 78
+								"x": 249,
+								"y": 284,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1780,10 +1780,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N5",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 149,
-							"y": 285,
-							"width": 78,
-							"height": 78
+							"x": 148,
+							"y": 284,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1792,10 +1792,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N5-ntfcquiz.png",
 							"frame": {
-								"x": 149,
-								"y": 285,
-								"width": 78,
-								"height": 78
+								"x": 148,
+								"y": 284,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1807,10 +1807,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N4",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 47,
-							"y": 285,
-							"width": 78,
-							"height": 78
+							"x": 46,
+							"y": 284,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1819,10 +1819,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N4-qky5ruy4.png",
 							"frame": {
-								"x": 47,
-								"y": 285,
-								"width": 78,
-								"height": 78
+								"x": 46,
+								"y": 284,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1834,10 +1834,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 250,
-							"y": 192,
-							"width": 78,
-							"height": 78
+							"x": 249,
+							"y": 191,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1846,10 +1846,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N3-mdjgrjew.png",
 							"frame": {
-								"x": 250,
-								"y": 192,
-								"width": 78,
-								"height": 78
+								"x": 249,
+								"y": 191,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1861,10 +1861,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 149,
-							"y": 192,
-							"width": 78,
-							"height": 78
+							"x": 148,
+							"y": 191,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1873,10 +1873,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N2-otqwneew.png",
 							"frame": {
-								"x": 149,
-								"y": 192,
-								"width": 78,
-								"height": 78
+								"x": 148,
+								"y": 191,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1888,10 +1888,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 47,
-							"y": 192,
-							"width": 78,
-							"height": 78
+							"x": 46,
+							"y": 191,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1900,10 +1900,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N1-mzkwmeu4.png",
 							"frame": {
-								"x": 47,
-								"y": 192,
-								"width": 78,
-								"height": 78
+								"x": 46,
+								"y": 191,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
@@ -1915,10 +1915,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"originalName": "N0",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 149,
-							"y": 470,
-							"width": 78,
-							"height": 78
+							"x": 148,
+							"y": 469,
+							"width": 80,
+							"height": 80
 						},
 						"visible": true,
 						"metadata": {
@@ -1927,10 +1927,10 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-N0-mkfdrdvd.png",
 							"frame": {
-								"x": 149,
-								"y": 470,
-								"width": 78,
-								"height": 78
+								"x": 148,
+								"y": 469,
+								"width": 80,
+								"height": 80
 							}
 						},
 						"children": []
