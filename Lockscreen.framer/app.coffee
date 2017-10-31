@@ -20,7 +20,7 @@ for pass in passAct
 	pass.opacity = 0
 
 for num in numAct
-	num.opacity  = 1
+	num.opacity  = 0
 
 
 LS.onClick ->
@@ -29,10 +29,31 @@ LS.onClick ->
 	LS.on Events.AnimationEnd, (animation, layer) ->
 		LS.visible = false
 
+numActAnim = []
+numActAnimRev = []
+for i in [0..numAct.length-1]
+	numActAnim[i] = new Animation numAct[i],
+		opacity:0.5
+		options:
+			time:0.3
+	numActAnimRev[i] = numActAnim[i].reverse()
+	
+# numAct[0].onTap ->
+# 	numAct[0].animate
+# 		opacity:0.5
+# 		options:
+# 			time:0.4
+# 	numAct[0].onAnimationEnd ->
+# 		numAct[0].animate
+# 			opacity:0
+# 			options:
+# 				time:0.4
 
-
-LSKEY.onClick ->
-	console.log("hello")
-	LSKEY.animate
-		opacity:0
-		visible: false
+numAct[0].onTap ->
+	numActAnim[0].start()
+	numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
+# 
+# for i in [0..numAct.length-1]
+# 	numAct[i].onTap ->
+# 		numActAnim[i].start()
+# 		numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
