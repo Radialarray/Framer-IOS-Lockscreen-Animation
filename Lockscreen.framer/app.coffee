@@ -28,15 +28,6 @@ LS.onClick ->
 		opacity: 0
 	LS.on Events.AnimationEnd, (animation, layer) ->
 		LS.visible = false
-
-numActAnim = []
-numActAnimRev = []
-for i in [0..numAct.length-1]
-	numActAnim[i] = new Animation numAct[i],
-		opacity:0.5
-		options:
-			time:0.3
-	numActAnimRev[i] = numActAnim[i].reverse()
 	
 # numAct[0].onTap ->
 # 	numAct[0].animate
@@ -49,11 +40,61 @@ for i in [0..numAct.length-1]
 # 			options:
 # 				time:0.4
 
-numAct[0].onTap ->
-	numActAnim[0].start()
-	numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
-# 
-# for i in [0..numAct.length-1]
-# 	numAct[i].onTap ->
-# 		numActAnim[i].start()
-# 		numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
+# numAct[0].onTap ->
+# 	numActAnim[0].start()
+# 	numActAnim[0].on Events.AnimationEnd, numActAnimRev[0].start
+
+	numAct[1].onTap ->
+		numAct[1].animate
+			opacity: 0.5
+			options:
+				time:0.3
+		numAct[1].onAnimationEnd ->
+			numAct[1].animate
+				opacity:0
+				options:
+					time:0.3
+
+	numAct[2].onTap ->
+		numAct[2].animate
+			opacity: 0.5
+			options:
+				time:0.3
+		numAct[2].onAnimationEnd ->
+			numAct[2].animate
+				opacity:0
+				options:
+					time:0.3
+
+	numAct[3].onTap ->
+		numAct[3].animate
+			opacity: 0.5
+			options:
+				time:0.3
+		numAct[3].onAnimationEnd ->
+			numAct[3].animate
+				opacity:0
+				options:
+					time:0.3
+
+	numAct[4].onTap ->
+		numAct[4].animate
+			opacity: 0.5
+			options:
+				time:0.3
+		numAct[4].onAnimationEnd ->
+			numAct[4].animate
+				opacity:0
+				options:
+					time:0.3
+
+for num in numAct
+	v = 0
+	num.onTap ->
+		passAct[v].opacity = 1
+		v++
+		if v>5
+			LSKEY.animate
+				opacity: 0
+			LSKEY.on Events.AnimationEnd, (animation, layer) ->
+				LSKEY.visible = false
