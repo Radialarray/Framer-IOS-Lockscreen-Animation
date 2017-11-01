@@ -1,32 +1,31 @@
+// wSocket = require "wSocket"
+
+console.log("hello");
+var bla = 3;
+var passCo = [];
+const WebSocket = require('ws');
+
+const wss = new WebSocket.Server({ port: 8080 });
+
+wss.on('connection', function connection(ws) {
+  ws.on('message', function incoming(message) {
+    console.log('received: %s', message);
+  });
+
+  ws.send('something');
+});
+
+
 const readline = require('readline');
-let test;
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-rl.question('Please type in your code: ', (answer) => {
- console.log("Received "+answer)
-  test = answer
-  console.log(`Thanks for the code ${answer}`);
-
-  rl.close();
-});
-
-
-// Reguire modules
-var express = require('../node_modules/express');
-
-// Create app
-var app = express();
-
-
-// Serve static files as default
-// app.get('/*', express.static(__dirname + '/Lockscreen.framer'));
-app.get('/*', express.static(__dirname));
-
-// Listen for both Heroku and local. Access locally as http://localhost:3333
-app.listen(process.env.PORT || 3333);
-
-
-console.log(test)
+// rl.question('What do you think of Node.js? ', (answer) => {
+//   // passCo.push(answer);
+//   // console.log(`Thank you for your valuable feedback: ${answer}`);
+// // console.log(passCo);
+//   rl.close();
+// });

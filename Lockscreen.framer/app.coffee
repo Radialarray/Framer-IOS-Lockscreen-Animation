@@ -6,7 +6,7 @@ LS.x = 0
 LSKEY.x = 0
 HS.x=0
 
-#Password Dots layers on top as array 
+#Password Dots layers on top as array
 passAct = [Dot1,Dot2,Dot3,Dot4,Dot5,Dot6]
 
 #Active numpad layers as array
@@ -28,7 +28,7 @@ LS.onClick ->
 		opacity: 0
 	LS.on Events.AnimationEnd, (animation, layer) ->
 		LS.visible = false
-	
+
 # numAct[0].onTap ->
 # 	numAct[0].animate
 # 		opacity:0.5
@@ -69,7 +69,7 @@ numAct[2].onTap ->
 			options:
 				time:0.3
 
-numAct[3].onTap ->	
+numAct[3].onTap ->
 	passCode.push(3)
 	numAct[3].animate
 		opacity: 0.5
@@ -104,9 +104,12 @@ for num in numAct
 				opacity: 0
 			LSKEY.on Events.AnimationEnd, (animation, layer) ->
 				LSKEY.visible = false
-		else 
+		else
 			if (passCode.length >3)
 				for pass in passAct
 					pass.opacity=0
 				passCode = []
 				v = 0
+
+if bla > 1
+	console.log("what")
