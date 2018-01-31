@@ -1649,6 +1649,33 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 				]
 			},
 			{
+				"objectId": "6EABDE32-63CF-4F33-9494-4E25E5BD7C9A",
+				"kind": "group",
+				"name": "Numbers",
+				"originalName": "Numbers",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 71,
+					"y": 211,
+					"width": 234,
+					"height": 311
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Numbers-nkvbqkrf.png",
+					"frame": {
+						"x": 71,
+						"y": 211,
+						"width": 234,
+						"height": 311
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "17C56D3B-8BC1-4BD1-B47E-8E91E09BA0B9",
 				"kind": "group",
 				"name": "NDeact",
@@ -1936,6 +1963,41 @@ window.__imported__["IOS Lockscreen@1x/layers.json.js"] = [
 						"children": []
 					}
 				]
+			},
+			{
+				"objectId": "BADC947A-7953-4BBC-93A2-F42B606AE51C",
+				"kind": "text",
+				"name": "OK",
+				"originalName": "OK",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 78,
+					"y": 611,
+					"width": 22,
+					"height": 12
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "OK",
+					"css": [
+						"/* OK: */",
+						"font-family: SFUIText-Medium;",
+						"font-size: 15px;",
+						"color: #FFFFFF;",
+						"letter-spacing: -0.31px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-OK-qkfeqzk0.png",
+					"frame": {
+						"x": 78,
+						"y": 611,
+						"width": 22,
+						"height": 12
+					}
+				},
+				"children": []
 			}
 		]
 	},
